@@ -1,0 +1,6 @@
+Explanation:
+Mark as Visited: The current position pos is marked as visited by setting game[pos] = 1
+to prevent revisiting the same position.
+Boundary Checks: Ensure that the positions are within bounds before moving forward, jumping
+forward, or moving backward.
+Recursive Approach: The isSolvable method is used to explore all possible moves recursively.
